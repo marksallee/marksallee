@@ -1,7 +1,7 @@
 
 ## Hi there, I'm Mark...  👋
 
-Infrastructure-focused engineer with 15+ years of experience working with Linux, cloud systems, automation, and backend services.
+Infrastructure-focused engineer with 15+ years of experience building and maintaining automated, production systems across cloud and virtualized environments.
 
 I focus on building reliable, reproducible environments using tools like Ansible and GCP, with a strong foundation in PostgreSQL and system performance.
 
@@ -12,7 +12,7 @@ I focus on building reliable, reproducible environments using tools like Ansible
 * Infrastructure & Automation: Ansible, system provisioning
 * Cloud: GCP (compute, storage, deployment patterns)
 * Virtualization: VMware environments (ESX)
-* Databases: PostgreSQL (performance, tuning, reliability)
+* PostgreSQL database (performance tuning, query optimization, reliability)
 
 ---
 
@@ -28,7 +28,7 @@ Production-style system setup with:
 
 ### GCP Deployment Patterns
 
-Examples of deploying services in GCP:
+Repository demonstrating deployment of services in GCP, including VM setup, networking, and configuration patterns
 
 * VM-based setups
 * Deploying databases and configuration
@@ -46,7 +46,7 @@ Real-world scenarios showing:
 
 ## How I Work
 
-I’m focused on improving how systems are deployed and maintained, with an emphasis on automation, repeatability, and reliability. I’m especially interested in DevOps workflows and how AI-assisted tools can help streamline deployments and reduce operational overhead.
+I’m focused on improving how systems are deployed and maintained, with an emphasis on automation, repeatability, and reliability. I’m especially interested in DevOps workflows and how AI-assisted tools can help streamline deployments, improve repeatability, and reduce operational overhead.
 
 ---
 
