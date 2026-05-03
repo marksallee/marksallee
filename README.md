@@ -52,10 +52,12 @@ I’m interested in understanding how systems behave in real environments—espe
 
 ## Currently Exploring
 
-* Improving infrastructure-as-code patterns
-* Deepening knowledge of distributed systems
-* Expanding cloud architecture skills
-* Growing Kubernetes and CI/CD deployment toolsets
+* Improving infrastructure-as-code patterns through repeatable, production-style setups
+* Deepening understanding of distributed systems and service reliability
+* Expanding cloud architecture skills in GCP environments
+* Building hands-on experience with Kubernetes clusters (deployments, services) and Helm
+* Developing CI/CD workflows using Jenkins for automated build and deployment pipelines
+
 
 ---
 
