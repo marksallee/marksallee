@@ -46,7 +46,7 @@ Real-world scenarios showing:
 
 ## How I Work
 
-I’m interested in understanding how systems behave in real environments—especially where performance, reliability, and automation intersect.
+I’m focused on improving how systems are deployed and maintained, with an emphasis on automation, repeatability, and reliability. I’m especially interested in DevOps workflows and how AI-assisted tools can help streamline deployments and reduce operational overhead.
 
 ---
 
