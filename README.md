@@ -35,7 +35,7 @@ A GitLab CI/CD pipeline running on my Proxmox home lab: build, test, security sc
 Idempotent playbooks and roles for service configuration and repeatable environment builds, the kind of automation a pipeline can call safely.
 
 ### ☁️ GCP Deployment Patterns
-VM-based deployments on GCP covering networking, storage, database setup, and configuration, secrets management (Vault).
+VM-based deployments on GCP covering networking, storage, database setup, and configuration, WIF for secure roles, and IAM Identity Management.
 
 ### 🐘 PostgreSQL Performance
 Query optimization, database migrations with Liquibase as part of deploy, indexes for performance.
@@ -48,11 +48,11 @@ Self-service AWS infrastructure baseline for product teams, using terraform:
 
 ## How I Work
 
-I want deployments to be automated, versioned, tested, and repeatable. I treat pipelines and infrastructure as code, and I've discovered the incredible capabilities of  how AI-assisted tools (Claude code especially) can find errors in logs, recommend solutions, and cut operational toil.
+I want deployments to be automated, versioned, tested, and repeatable. I treat pipelines and infrastructure as code, and I've discovered the incredible capabilities of  how AI-assisted tools (Claude Code especially) can find errors in logs, recommend solutions, and cut operational toil.
 
 ## Currently Exploring
 
-* Building out Jenkins pipelines for automated build and deploy
+* Building out ArgoCD, GitLab CI, and GitHub Actions for automated deploy
 * Kubernetes delivery workflows with Helm on GKE - Kubernetes Certified Admin study
 * Pipeline security: scanning, secrets handling, and supply-chain checks
 
