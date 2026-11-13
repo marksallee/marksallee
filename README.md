@@ -1,77 +1,63 @@
+# Hi, I'm Mark 👋
 
-## Hi there, I'm Mark...  👋
+**DevOps / Platform Engineer focused on CI/CD and delivery automation.** 15+ years running production Linux infrastructure, now building the pipelines that ship it: automated, repeatable, and safe to deploy on a Friday.
 
-Infrastructure-focused engineer with 15+ years of experience building and maintaining automated, production systems across cloud and virtualized environments.
-
-I focus on building reliable, reproducible environments using tools like Ansible and GCP, with a strong foundation in PostgreSQL and system performance.
+I design CI/CD pipelines that take code from commit to production with testing, security scanning, and deployment built in. I pair them with Ansible, Helm, and GKE so every environment is reproducible, not hand-built.
 
 ---
 
-## What I Work With
+## CI/CD & Delivery
 
-* Infrastructure & Automation: Ansible, system provisioning
-* Cloud: GCP (compute, storage, deployment patterns)
-* Virtualization: VMware environments (ESX)
-* PostgreSQL database (performance tuning, query optimization, reliability)
+* **Pipelines:** Jenkins, GitLab CI/CD, GitHub Actions
+* **Pipeline design:** multi-stage build → test → scan → deploy workflows, pipeline-as-code, environment promotion
+* **Config & deployment automation:** Ansible (playbooks and roles), Helm, Rundeck
+* **Secrets & certificates in pipelines:** HashiCorp Vault, Vault PKI
+* **Release reliability:** repeatable deploys, rollback-friendly patterns, post-deploy monitoring
+
+## Platform & Infrastructure
+
+* **Kubernetes:** GKE, Helm, deployments and services (currently working toward certification)
+* **Cloud:** GCP (compute, networking, storage, deployment patterns)
+* **Virtualization:** VMware ESX, Proxmox
+* **Observability:** Prometheus, Alertmanager, Grafana
+* **Data:** PostgreSQL (backup/recovery, performance tuning, reliability)
+* **AI-assisted troubleshooting and automation** with Claude Code
 
 ---
 
 ## Featured Work
 
-### Infrastructure Automation (Ansible)
+### 🔁 Multi-Stage CI/CD Pipeline (GitLab CI). 
+A GitLab CI/CD pipeline running on my Proxmox home lab: build, test, security scan, and deploy stages as code.  
+[https://github.com/marksallee/gitlab-ci-home-lab-github]
 
-Production-style system setup with:
+### ⚙️ Infrastructure Automation (Ansible)
+Idempotent playbooks and roles for service configuration and repeatable environment builds, the kind of automation a pipeline can call safely.
 
-* Idempotent playbooks
-* Service configuration
-* Repeatable environment builds
+### ☁️ GCP Deployment Patterns
+VM-based deployments on GCP covering networking, storage, database setup, and configuration, secrets management (Vault).
 
-### GCP Deployment Patterns
+### 🐘 PostgreSQL Performance
+Query optimization, database migrations with Liquibase as part of deploy, indexes for performance.
 
-Repository demonstrating deployment of services in GCP, including VM setup, networking, and configuration patterns
-
-* VM-based setups
-* Deploying databases and configuration
-* Focus on clarity and reproducibility
-
-### PostgreSQL Performance Examples
-
-Real-world scenarios showing:
-
-* Query optimization
-* Indexing strategies
-* Performance improvements
+### AWS lab
+Self-service AWS infrastructure baseline for product teams, using terraform:  
+[https://github.com/marksallee/team-baseline-platform]
 
 ---
 
 ## How I Work
 
-I’m focused on improving how systems are deployed and maintained, with an emphasis on automation, repeatability, and reliability. I’m especially interested in DevOps workflows and how AI-assisted tools can help streamline deployments, improve repeatability, and reduce operational overhead.
-
----
+I want deployments to be automated, versioned, tested, and repeatable. I treat pipelines and infrastructure as code, and I've discovered the incredible capabilities of  how AI-assisted tools (Claude code especially) can find errors in logs, recommend solutions, and cut operational toil.
 
 ## Currently Exploring
 
-* Improving infrastructure-as-code patterns through repeatable, production-style setups
-* Deepening understanding of distributed systems and service reliability
-* Expanding cloud architecture skills in GCP environments
-* Building hands-on experience with Kubernetes clusters (deployments, services) and Helm
-* Developing CI/CD workflows using Jenkins for automated build and deployment pipelines
+* Building out Jenkins pipelines for automated build and deploy
+* Kubernetes delivery workflows with Helm on GKE - Kubernetes Certified Admin study
+* Pipeline security: scanning, secrets handling, and supply-chain checks
 
 
 ---
 
-<!--
-**marksallee/marksallee** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+📫 [https://www.linkedin.com/in/mark-sallee-4504a28/]
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
